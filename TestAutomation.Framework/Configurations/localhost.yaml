@@ -1,0 +1,6 @@
+﻿Api:
+  Url: http://localhost:8000/
+UI:
+  Url: http://localhost:5173/
+Browser:
+  Headless: false
