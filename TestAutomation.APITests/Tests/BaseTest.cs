@@ -7,7 +7,7 @@ namespace TestAutomation.APITests.Tests;
 [TestFixture]
 public class BaseTest: ApiFixture
 {
-    DinosaurusEnum  dinosaurusName = DinosaurusEnum.stego;
+    DinosaurusEnum  dinosaurusName = DinosaurusEnum.trex;
     
     [Test]
     public async Task HealthCheck()

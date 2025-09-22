@@ -20,8 +20,8 @@ public class HomePage:BrowserFixture
     public async Task GoToProjectPage()
     {   
       
-       Helpers.Helpers.WaitUntilElementExists( _driver,By.XPath(HomePageLocator));
-       _driver.FindElement(By.XPath(ProjectPageLocator)).Click();
+        Helpers.Helpers.WaitUntilElementExists( _driver,By.XPath(HomePageLocator));
+        _driver.FindElement(By.XPath(ProjectPageLocator)).Click();
        
     }
     

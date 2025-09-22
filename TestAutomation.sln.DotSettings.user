@@ -6,7 +6,11 @@
     &lt;TestAncestor&gt;&#xD;
       &lt;TestId&gt;NUnit3x::113F0460-74DA-4D13-9060-7E9EC151AF77::net9.0::TestAutomation.UITests.Common.Tests.BaseTest.BasicTest&lt;/TestId&gt;&#xD;
       &lt;TestId&gt;NUnit3x::113F0460-74DA-4D13-9060-7E9EC151AF77::net9.0::TestAutomation.UITests.Common.Tests.BaseTest.ClassifyTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::9A23263C-29F8-4108-87C2-42B2B0EE1C53::net9.0::TestAutomation.APITests.Tests.BaseTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::113F0460-74DA-4D13-9060-7E9EC151AF77::net9.0::TestAutomation.UITests.Common.Tests.BaseTest&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::9A23263C-29F8-4108-87C2-42B2B0EE1C53::net9.0::TestAutomation.APITests.Tests.Features.APIFeature&lt;/TestId&gt;&#xD;
     &lt;/TestAncestor&gt;&#xD;
+    &lt;ProjectFile&gt;113F0460-74DA-4D13-9060-7E9EC151AF77/d:Tests/d:Features/f:Classify.feature.cs&lt;/ProjectFile&gt;&#xD;
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	</wpf:ResourceDictionary>

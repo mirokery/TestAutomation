@@ -10,8 +10,7 @@ public class BrowserFixture
 {
     public static IWebDriver Driver { get; private set; }
     
-    [OneTimeSetUp]
-    public void GlobalSetup()
+    public static void Initialize()
     {   
         var headless =
             bool.Parse(Framework.Common.GlobalSetup.Configuration[ConfigurationVariables.IsBrowserHeadless] ?? "true");
@@ -26,9 +25,8 @@ public class BrowserFixture
         var url = Framework.Common.GlobalSetup.Configuration[ConfigurationVariables.UIUrl];
         Driver.Navigate().GoToUrl(url);
     }
-
-    [OneTimeTearDown]
-    public void GlobalTearDown()
+    
+    public static void CleanUp()
     {
         Driver.Dispose();
     }

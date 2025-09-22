@@ -2,20 +2,20 @@
 
 namespace TestAutomation.APITests.Common.Fixtures;
 
-[SetUpFixture]
+
 public class ApiFixture
 {
     public static ApiClient Client { get; private set; }
 
     [OneTimeSetUp]
-    public void GlobalSetup()
+    public static void Initialize()
     {
         Client = new ApiClient();
         TestContext.Progress.WriteLine("ApiClient initialized globally.");
     }
 
     [OneTimeTearDown]
-    public void GlobalTeardown()
+    public static void CleanUp()
     {
         Client = null;
         TestContext.Progress.WriteLine("ApiClient cleaned up.");
